@@ -1,6 +1,6 @@
 # Public Site Deployment Package
 
-This folder contains the privacy and support pages required before App Store Connect upload for batch 236-241.
+This folder contains the privacy and support pages required before App Store Connect upload.
 
 GitHub Pages URL patterns after deployment:
 
@@ -23,3 +23,12 @@ Required privacy/support paths:
 - `/support/241_schedule_window/`
 
 App Store Connect should use the final public HTTPS URLs after GitHub Pages is enabled and verified.
+
+## Generic local-tool URLs
+
+For simple local-only utility apps with no account, no tracking, no ads, no third-party SDKs, no cloud processing, no permissions, and no IAP/subscription, these generic URLs may be used:
+
+- Privacy Policy: `https://xiangxicool.github.io/engineerpro-app-pages/privacy/local-tool-apps/`
+- Support URL: `https://xiangxicool.github.io/engineerpro-app-pages/support/local-tool-apps/`
+
+Do not use the generic URLs for apps that request camera, microphone, photo library, location, local network, Bluetooth, contacts, health, calendar, account login, cloud sync, analytics, ads, tracking, subscriptions, or in-app purchases. Those apps need app-specific pages.
